@@ -8,7 +8,9 @@
   box-sizing: border-box;
 
 }
-
+.fb-root{
+    background-color: #273037;
+}
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
