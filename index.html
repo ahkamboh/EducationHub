@@ -6,64 +6,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!-Lahore Science Acadmey</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="Simple Circle Logo (3) (1) (1).png" />
-
+    <!-- icon from font awesome -->
+    <script src="https://kit.fontawesome.com/964aa041f9.js" crossorigin="anonymous"></script>
+    <!-- Css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Tab bar icon  -->
+    <link rel="icon" type="image/png" href="assets/Logo-1.png" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Hearder -->
     <header>
         <nav>
             <div class="bar">
                 <div class="logo">
-                    <img src="LSAA LOGO.png" alt="LSA LOGO" height=80>
+                    <img src="assets/Logo-1.png" alt="LSA LOGO">
                 </div>
                 <div class="lsa">
                     <span>Lahore</span>
                     Science Acadmey
                 </div>
-                
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
+                <div id="myNav" class="overlay">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Programs">Programs</a></li>
+                        <li><a href="#Campuses">Campuses</a></li>
+                        <li><a href="#Admissions">Admissions</a></li>
+                        <li><a href="#Contact">Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- Hamburger Menu  -->
+                <div onclick="classgen(this)" class="mainbar" id="mainbar">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </nav>
     </header>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+    <!-- --------------------------------------------------------------------- -->
+    <div class="container" id="content">
+        <section id="Home">
+            <div class="Home">
+                <img src="assets/image-1.png" alt="school-child">
+                <button class="social-link">
+                    <div class="Social-Link">
+                        <SPAN> <B>&#62;</B><i>Social Link</i></SPAN>
+                        <a href="https://www.facebook.com/profile.php?id=100063747202566" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063747202566" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063747202566" target="_blank"> <i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063747202566" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </button>
+            </div>
+            <div class="Home">
+                <div class="Home-text">
+                    <h1><b> Join Our</b><br>Acadmey Now</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laborum doloribus
+                        reprehenderit. Eius officiis deserunt corporis illo distinctio ut modi voluptatum autem, nulla
+                        rem assumenda vero consequuntur molestiae voluptate natus.</p>
+                    <a href="#Programs"> <button class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Learn More</span>
+                        </button></a>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
+                </div>
+            </div>
+            <div class="arrows">
+                <span onclick="scrollWin(0, -300)" tabindex="1" class="up" id="up">&#62;</span>
+                <span onclick="scrollWin(0, 300)" tabindex="1
+                " class="down" id="down">&#62;</span>
+            </div>
+        </section>
+        <section id="Programs">Programs</section>
+        <section id="Campuses">
+            <h1>Campuses</h1>
+        </section>
+        <section id="Admissions">Admissions</section>
+        <section id="Contact">Contact</section>
     </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "101421454944610");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+      <!-- Messenger Chat Plugin Code -->
+      <div id="fb-root"></div>
+      <!-- Your Chat Plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+    <!-- js/  -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
