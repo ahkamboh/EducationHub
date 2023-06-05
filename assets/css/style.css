@@ -107,7 +107,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: myAnim 1.3s ease 3s 1 normal forwards;
+  animation: myAnim 1.3s ease 2.5s 1 normal forwards;
 }
 
 @keyframes myAnim {
@@ -384,7 +384,7 @@ nav ul li:nth-of-type(5) a:hover {
 }
 
 .Home:first-child img {
-  animation: scaleup 2s ease 3s normal forwards;
+  animation: scaleup 1.8s ease 2.5s normal forwards;
 }
 
 @keyframes scaleup {
@@ -411,7 +411,7 @@ nav ul li:nth-of-type(5) a:hover {
   flex-direction: column;
   position: relative;
   top: 15px;
-  animation: upward 2s ease 3s 1 normal forwards;
+  animation: upward 1.8s ease 2.5s 1 normal forwards;
 }
 
 @keyframes upward {
