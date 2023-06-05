@@ -261,7 +261,7 @@ nav ul li a:hover {
 
 }
 
-nav  ul li a::after {
+  ul li a::after {
   content: '';
   background: #ffffff;
   width: 0%;
@@ -1811,12 +1811,12 @@ footer {
     text-align: center;
   }
 
-  ul li a:hover {
+  nav ul li a:hover {
     transition: 0.3s;
     color: #ffffff;
   }
 
-  ul li a::after {
+  nav ul li a::after {
     display: none;
   }
 
