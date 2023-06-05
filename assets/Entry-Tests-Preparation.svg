@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="64" viewBox="0 0 50 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3086" data-name="Rectangle 3086" width="64" height="50" transform="translate(50) rotate(90)" fill="#30eaae"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_88" data-name="Mask Group 88" clip-path="url(#clip-path)">
+    <g id="Group_9915" data-name="Group 9915">
+      <g id="Mask_Group_86" data-name="Mask Group 86" clip-path="url(#clip-path)">
+        <g id="Group_9913" data-name="Group 9913" transform="translate(0.051 2)">
+          <path id="noun-test-4716582" d="M161.611,26.21l.02,0h29.206a1.034,1.034,0,0,1,1.03,1.03V85.158a1.035,1.035,0,0,1-1.03,1.038H170.12a1.034,1.034,0,0,1,0-2.068H189.8V28.28H162.647v11h0a1.035,1.035,0,0,1-1.038,1.038H150.524v20.3h0a1.034,1.034,0,0,1-2.068,0V39.346a1.038,1.038,0,0,1,.035-.335v0a1.032,1.032,0,0,1,.271-.463l12.122-12.038a1.032,1.032,0,0,1,.729-.3Zm-1.034,3.521-4.154,4.124L152,38.25h8.578Zm22.329,13.694a1.035,1.035,0,0,1,1.038,1.032v6.19a1.035,1.035,0,0,1-1.038,1.03h-6.221a1.035,1.035,0,0,1-1.04-1.03v-6.19a1.034,1.034,0,0,1,1.04-1.032Zm-1.03,2.07h-4.16v4.114h4.16Zm1.029,11.648s-.266,0,0,0a.906.906,0,0,1,.733.3.9.9,0,0,1,.305.731v6.19A1.035,1.035,0,0,1,182.9,65.4h-6.221a1.035,1.035,0,0,1-1.04-1.03v-6.19a1.034,1.034,0,0,1,1.04-1.032Zm-1.03,2.071h-4.161v4.114h4.161Zm-33.638,6.208h0a1.036,1.036,0,0,1,.612.295l12.444,12.367a1.04,1.04,0,0,1,.245.388l2.222,6.352a1.034,1.034,0,0,1-1.313,1.313l-6.382-2.205a1.037,1.037,0,0,1-.4-.244L143.224,71.32h0a1.033,1.033,0,0,1,0-1.466l4.167-4.136h0a1.036,1.036,0,0,1,.846-.3Zm-.119,2.484-2.7,2.68L147.75,72.9l2.7-2.682ZM182.9,70.861h0a1.035,1.035,0,0,1,1.038,1.03v6.193h0a1.035,1.035,0,0,1-1.038,1.03h-6.221a1.035,1.035,0,0,1-1.04-1.03V71.891a1.035,1.035,0,0,1,1.04-1.03Zm-30.989.816-2.7,2.682,7.738,7.693,4.144,1.434-1.434-4.106Zm29.959,1.252h-4.16v4.116h4.16Z" transform="translate(-142.919 -26.209)" fill="#30eaae" stroke-width="0.8"/>
+        </g>
+      </g>
+      <rect id="Rectangle_3080" data-name="Rectangle 3080" width="10" height="3" rx="1.5" transform="translate(17 47)" fill="#30eaae"/>
+      <rect id="Rectangle_3085" data-name="Rectangle 3085" width="5" height="3" rx="1.5" transform="translate(22 52)" fill="#30eaae"/>
+      <rect id="Rectangle_3081" data-name="Rectangle 3081" width="15" height="3" rx="1.5" transform="translate(12 38)" fill="#30eaae"/>
+      <rect id="Rectangle_3082" data-name="Rectangle 3082" width="15" height="3" rx="1.5" transform="translate(12 33)" fill="#30eaae"/>
+      <rect id="Rectangle_3083" data-name="Rectangle 3083" width="15" height="3" rx="1.5" transform="translate(12 24)" fill="#30eaae"/>
+      <rect id="Rectangle_3084" data-name="Rectangle 3084" width="15" height="3" rx="1.5" transform="translate(12 19)" fill="#30eaae"/>
+    </g>
+  </g>
+</svg>
