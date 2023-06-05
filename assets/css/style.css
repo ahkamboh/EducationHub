@@ -261,7 +261,7 @@ nav ul li a:hover {
 
 }
 
-nav nav ul li a::after {
+nav  ul li a::after {
   content: '';
   background: #ffffff;
   width: 0%;
