@@ -6,11 +6,11 @@ EducationHub is a comprehensive educational repository on GitHub that aims to pr
 ## Color Palettes
 ![muzli-colors](https://github.com/ahkamboh/EducationHub/assets/123060177/7f5ef3f4-a8b2-4ad8-bece-a4d2ef1db3f5)
 ### Hex
-#235770
-#487b94
-#cbffff
-#f1faf8
-#000000
+-![#235770](https://placehold.co/15x15/1589F0/1589F0.png) `#235770`
+-![#487b94](https://placehold.co/15x15/1589F0/1589F0.png) `#487b94`
+-![#cbffff](https://placehold.co/15x15/1589F0/1589F0.png) `#cbffff`
+-![#f1faf8](https://placehold.co/15x15/1589F0/1589F0.png) `#f1faf8`
+-![#000000](https://placehold.co/15x15/1589F0/1589F0.png) `#f000000`
 ## Features
 
 - **Extensive Collection:** EducationHub offers a vast collection of educational materials covering various subjects, including computer science, mathematics, science, languages, and more.
