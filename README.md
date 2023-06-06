@@ -3,7 +3,14 @@
 EducationHub is a comprehensive educational repository on GitHub that aims to provide a wide range of learning resources, projects, and tutorials for students, teachers, and self-learners. Whether you are a beginner or an experienced learner, EducationHub has something for everyone.
 ## Output
 ![image](https://github.com/ahkamboh/EducationHub/assets/123060177/49754435-258d-4d2f-9c23-edf03d7e1015)
-
+## Color Palettes
+![muzli-colors](https://github.com/ahkamboh/EducationHub/assets/123060177/7f5ef3f4-a8b2-4ad8-bece-a4d2ef1db3f5)
+### Hex
+#235770
+#487b94
+#cbffff
+#f1faf8
+#000000
 ## Features
 
 - **Extensive Collection:** EducationHub offers a vast collection of educational materials covering various subjects, including computer science, mathematics, science, languages, and more.
