@@ -247,7 +247,9 @@ ul {
   position: relative;
   bottom: 2px;
 }
-
+.white{
+  color: white;
+ }
 
 nav ul li a {
   cursor: pointer;
