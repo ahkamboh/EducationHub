@@ -7,6 +7,48 @@ classgen = (x) => {
   navclass.classList.toggle("navdisplay");
   x.classList.toggle("change");
 };
+
+let home=document.getElementById('home');
+let program=document.getElementById('program');
+let campuses=document.getElementById('campuses');
+let contact=document.getElementById('contact');
+let admission=document.getElementById('admission');
+
+Homebtn=()=>{
+home.classList.toggle('white');
+program.classList.remove('white');
+campuses.classList.remove('white');
+contact.classList.remove('white');
+admission.classList.remove('white');
+}
+Progmbtn=()=>{
+  program.classList.toggle('white');
+  home.classList.remove('white');
+campuses.classList.remove('white');
+contact.classList.remove('white');
+admission.classList.remove('white');
+  }
+  Campbtn=()=>{
+    campuses.classList.toggle('white');
+    home.classList.remove('white');
+  program.classList.remove('white');
+  contact.classList.remove('white');
+  admission.classList.remove('white');
+    }
+    Contbtn=()=>{
+      contact.classList.toggle('white');
+      home.classList.remove('white');
+    campuses.classList.remove('white');
+    program.classList.remove('white');
+    admission.classList.remove('white');
+      }
+      admbtn=()=>{
+        admission.classList.toggle('white');
+        home.classList.remove('white');
+      campuses.classList.remove('white');
+      contact.classList.remove('white');
+      program.classList.remove('white');
+        }
 // sroll button
 scrollWin = (x, y) => {
   let content = document.getElementById("content");
